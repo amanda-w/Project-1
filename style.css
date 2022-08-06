@@ -1,9 +1,22 @@
 html, body {
     margin: 0;
     padding: 0;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
 }
 
 body {
+    background-image: url(img/milky-way-.jpg);
+    background-size: 150%;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -13,49 +26,5 @@ body {
 }
 
 canvas {
-    box-shadow: blue 20px 10px 50px;
+    box-shadow: lightyellow 10px 10px 50px 10px, -10px -10px 50px 5px;
 }
-
-/* #container {
-    max-width: 50em;
-    background-color: lightblue;
-    margin: 0 auto;
-    padding: 1em;
-    display: grid;
-    grid-gap: 1em;
-    grid-template-rows: .25fr .5fr .25fr;
-    grid-template-columns: .25fr .5fr .25fr;
-    grid-template-areas: "top-left top-right"
-                            "canvas canvas canvas"
-                            " btm-left btm-middle btm-right";
-}
-
-#top-left, #top-right, #btm-left, #btm-middle, #btm-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#top-left {
-    grid-area: top-left;
-}
-
-#top-right {
-    grid-area: top-right;
-}
-
-main {
-    grid-area: canvas;
-}
-
-#btm-left {
-    grid-area: btm-left;
-}
-
-#btm-middle {
-    grid-area: btm-middle;
-}
-
-#btm-right {
-    grid-area: btm-right;
-} */
