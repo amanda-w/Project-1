@@ -162,6 +162,13 @@ function keyDown(event) {
     }
 }
 
+const replay = document.getElementById('button');
+replay.addEventListener('click', replayGame);
+
+function replayGame() {
+    location.reload();
+}
+
 drawGame();
 
 // Set up for Canvas rendering
