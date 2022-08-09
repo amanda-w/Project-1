@@ -13,7 +13,7 @@ I started with a wire frame to get an idea of how I wanted my game layout to loo
 #
 
 ### FEATURES TO ADD
-I would like to add a restart button that would reset the game after losing and a high score field that would save the highest score a user achieved.
+I would like to add a high score field that would save the highest score a user achieved.
 #
 
 ### INSTALLATION INSTRUCTIONS

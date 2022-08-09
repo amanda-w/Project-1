@@ -22,6 +22,7 @@ h2 {
     background-color: black;
     color: white;
     box-shadow: lightyellow 10px 10px 50px 10px, -10px -10px 50px 5px;
+    border: 1px solid lightyellow;
 }
 
 body {
